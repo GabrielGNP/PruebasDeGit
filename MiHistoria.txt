@@ -1,4 +1,6 @@
 Esta es la historia de Gabriel Perero
 
-Tiene 22 años y actualmente está finalizando su carrera universitaria como analista de sistema
+Tiene 23 años y actualmente está finalizando su carrera universitaria como analista de sistema
+
+Actualmente tambien está realizando el curso de Platzi sobre Git y GitHub
 
