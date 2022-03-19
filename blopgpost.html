@@ -26,15 +26,14 @@
             </div>
             <br><br><br>
             <div>
-               <n>$ cd </n>: (change directory) permite cambiar el de carpeta referenciada, cambiar de directorio de trabajo. Si se escribe <git>$ cd ..</git> entonces volverá al directorio padre  
+               <n>$ cd </n>: (change directory) permite cambiar la carpeta referenciada, cambia de directorio de trabajo. <git>$ cd c/</git> Selecciona carpeta c (o disco c). Si se escribe <git>$ cd ..</git> entonces volverá al directorio padre. <git>$ cd .</git> hace referencia a la carpeta actual.
             </div>
             <br><br><br>
             <div>
                <n>$ ls</n>: Escribe en pantalla los archivos y carpetas dentro del directorio referenciado. <br> 
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Si se utiliza el argumento <git>-l</git> entonces mostrará los archivos y carpetas listados uno debajo de otro. <git>$ ls -l</git> <br> 
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Si se utiliza el argumento <git>-a</git> entonces tambien mostrará los archivos ocultos dentro del directorio. <git>$ ls -a</git> <br> 
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pueden combinarse los arbumentos <git>-a</git> y <git>-l</git> para mostrar todos los elementos, incluidos los ocultos, listandolos uno debajo de otro. <git>-al</git> o <git>-la</git>, el orden es indiferente. 
-               <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<git>$ ls -al</git> 
+                Si se utiliza el argumento <git>-l</git> entonces mostrará los archivos y carpetas listados uno debajo de otro. <git>$ ls -l</git> <br> 
+                Si se utiliza el argumento <git>-a</git> entonces tambien mostrará los archivos ocultos dentro del directorio. <git>$ ls -a</git> <br> 
+                Pueden combinarse los arbumentos <git>-a</git> y <git>-l</git> para mostrar todos los elementos, incluidos los ocultos, listandolos uno debajo de otro. <git>-al</git> o <git>-la</git>, el orden es indiferente. <git>$ ls -al</git> 
             </div>
             <br><br><br>
             <div>
@@ -42,15 +41,31 @@
             </div>
             <br><br><br>
             <div>
-               <n></n>  
+               <n>$ mkdir <espe1>NombreCarpeta </espe1></n>: Permite crear un nuevo directorio dentro del directorio de trabajo. <espe1>NombreCarpeta</espe1> será el nombre que se le dará a la carpeta.
             </div>
             <br><br><br>
             <div>
-               <n></n>  
+               <n>$ touch <espe1>NombreArchivo.Extension </espe1></n>: Permite crear un nuevo archivo dentro del directorio de trabajo. <espe1>NombreArchivo</espe1> será el nombre del archivo y <espe1>.Extension</espe1> será la extension del archivo
             </div>
             <br><br><br>
             <div>
-               <n></n>  
+               <n>$ cat <espe1>NombreArchivo.Extension </espe1></n>: Muestra el contenido del archivo al cual se le está haciendo referencia con la instruccion.  
+            </div>
+            <br><br><br>
+            <div>
+               <n>$ history </n>: Muestra el historial de instrucciones que se ha ejecutado durante toda la ejecucion de la consola. Cuando se cierra la consola, el historial se vacía. El historial se mantiene aunque se realize un <git>$ clear </git>. 
+            </div>
+            <br><br><br>
+            <div>
+               <n>$ !<espe1>Número</espe1> </n>: Ejecuta la instruccion con el número del historial. Si en el historial hay una ejecucion realizada con el número 79, al realizar <git>$ !79</git> entonces se ejecutará la misma instruccion que se encuentre en el historial con el número 79.
+            </div>
+            <br><br><br>
+            <div>
+               <n>$ rm <espe1>NombreArchivo.Extension </espe1></n>: Permite borrar el archivo con el nombre dado. <Alert>Si no se maneja con cuidado puede llegar a borrar incluso todo un disco</Alert>.
+            </div>
+            <br><br><br>
+            <div>
+               <n> --help </n> : Es un argumento que permite ver una descripción mucho más completa de la instrucción a la que se le agregue este argumento. escribir <git>$ git </git>es igual que <git>$ git --help </git> . Por ejemplo se puede hutilizar <git>$ rm --help </git> para conocer el funcionamiento del <git>$ rm </git> .
             </div>
             <br><br><br>
             <div>
@@ -61,7 +76,9 @@
                <n></n>  
             </div>
         </section>
-    
+        <div style="position: absolute; left: 70px">
+                    
+        </div> 
     </body>
 
 </html>

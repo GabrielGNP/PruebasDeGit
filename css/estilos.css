@@ -42,6 +42,8 @@ div{
 n{
     font-style: italic;
     font-size: larger;
+    color:rgb(255, 217, 0);
+    font-family: 'Courier New', Courier, monospace;
 }
 git{
     color:rgb(255, 217, 0);
@@ -53,4 +55,7 @@ pre{
 }
 espe1{
     color: chartreuse;
+}
+Alert{
+    color: #c80000;;
 }
