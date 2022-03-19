@@ -1,6 +1,56 @@
-body
+body{
+    background-color: rgb(24, 24, 37);
+}
+h1
 {
     text-align: center;
     font-family: "arial";
+    color: rgb(0, 89, 255);
+}
+p{
+    text-align: center;
+    font-family: "arial";
+    color: rgb(192, 209, 241);
+}
+div{
+    font-family: "arial";
+    color: rgb(192, 209, 241);
+}
+#Barra{
+    text-align: center;
+    font-family: "arial";
+}
+#Barra button{
+    width: 200px;
+    background: transparent;
+    color: brown;
+    border: 0px;
+    font-size: 20px;
+    
+    text-decoration: underline;
+}
+
+#Barra button:hover{
+    color: rgb(231, 93, 93);
+    text-shadow: 1px 1px 10px rgb(230, 171, 171);
+}
+
+#Cont{
+    height: 100%;
+    border: 5px solid rgb(19, 18, 36);
+}
+n{
+    font-style: italic;
+    font-size: larger;
+}
+git{
+    color:rgb(255, 217, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+pre{
+    font-family: "arial";
+    font-size: 16px;
+}
+espe1{
     color: chartreuse;
 }
